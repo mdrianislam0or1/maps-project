@@ -66,7 +66,11 @@ const Delivery = ({
           >
             <img src={gps} width="22px" height="31px" alt="Gps icon" style={{ margin: '10px'}} />
           </FooterMapAddress>
+<<<<<<< HEAD
           <FooterMapAddress style={{ fontSize: '25px', lineHeight: '2.0'}} cols={'0 0 50%'} txt={'Tiempo estimado de llegada'}>
+=======
+          <FooterMapAddress style={{ fontSize: '25px' }} cols={'0 0 50%'} txt={'Tiempo estimado de llegada'}>
+>>>>>>> 9cabb6122627caaca81e0fea36a5274d0aebc779
           <Text medium bold margin="8" style={{ textTransform: 'lowercase', fontSize: '23px',  color: '#003B62', fontWeight: '700' }}>
               {estimatedArrival}
             </Text>
